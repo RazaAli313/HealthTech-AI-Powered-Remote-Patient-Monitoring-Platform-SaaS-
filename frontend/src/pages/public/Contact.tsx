@@ -1,8 +1,8 @@
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
-import { useState } from 'react'
+
 
 export default function Contact() {
-  const [firstName,setFirstName]=useState("")
+  
   return (
     <div className=" px-6 py-24 sm:py-32 lg:px-8 mt-2">
       <div
