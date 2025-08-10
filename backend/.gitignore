@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Cache & build
+.cache/
+dist/
+build/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large AI / dataset files
+AI_Assistant/RAG/chroma_db/7dbe3d79-8f08-4784-a9ba-553e93f9f820/data_level0.bin
+AI_Assistant/RAG/services/Health.csv
+AI_Assistant/RAG/services/Health.txt
+AI_Assistant/RAG/chroma_db/
+AI_Assistant/RAG/services/*.csv
